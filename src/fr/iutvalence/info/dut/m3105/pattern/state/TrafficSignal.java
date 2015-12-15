@@ -4,12 +4,19 @@ package fr.iutvalence.info.dut.m3105.pattern.state;
 public class TrafficSignal extends Thread implements TrafficSignalContext, TrafficSignalUserInterface
 {
 	private TrafficSignalState state;
+	private Observator observator;
 
+	public TrafficSignal(Observator observator)
+	{
+		super();
+		this.observator = observator;
+	}
+	
 	@Override
 	public void setTrafficSignalState(TrafficSignalState state)
 	{
-		System.out.println("Traffic signal state is "+state.getName());
-		this.state = state;		
+		this.state = state;
+		this.observator.notify("notify : " + state.getName().toString());
 	}
 
 	@Override

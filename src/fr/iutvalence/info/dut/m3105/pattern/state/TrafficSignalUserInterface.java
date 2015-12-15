@@ -5,4 +5,4 @@ public interface TrafficSignalUserInterface
 {
 	public void pressButton();
 }
- 
+  

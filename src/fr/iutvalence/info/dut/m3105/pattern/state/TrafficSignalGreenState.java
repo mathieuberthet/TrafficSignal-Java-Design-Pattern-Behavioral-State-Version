@@ -6,7 +6,7 @@ public class TrafficSignalGreenState extends TrafficSignalState
 	private final static int BUTTON_DURATION_IN_SECONDS = 2;
 	
 	public TrafficSignalGreenState(TrafficSignalContext context)
-	{ 
+	{  
 		super(context, GREEN_STATE_DURATION_IN_SECONDS, TrafficSignalStateName.GREEN);
 	}
 

@@ -8,7 +8,7 @@ public class TrafficSignalRedState extends TrafficSignalState
 	{
 		super(context, RED_STATE_DURATION_IN_SECONDS, TrafficSignalStateName.RED);
 	}
-
+ 
 	@Override
 	public void secondEllapsed()
 	{

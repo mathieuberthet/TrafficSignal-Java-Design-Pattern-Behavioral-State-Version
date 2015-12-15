@@ -7,4 +7,4 @@ public class TrafficObservator implements Observator
 		System.out.println("etat");
 	}
 
-} 
+}  

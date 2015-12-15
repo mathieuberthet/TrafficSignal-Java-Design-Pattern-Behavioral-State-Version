@@ -4,4 +4,4 @@ public enum TrafficSignalStateName
 {
 	GREEN, ORANGE, RED;
 }
- 
+  

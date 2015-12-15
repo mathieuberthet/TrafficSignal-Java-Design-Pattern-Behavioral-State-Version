@@ -9,7 +9,7 @@ public class TrafficSignal extends Thread implements TrafficSignalContext, Traff
 	public TrafficSignal(Observator observator)
 	{
 		super();
-		this.observator = observator; 
+		this.observator = observator;  
 	}
 	
 	@Override

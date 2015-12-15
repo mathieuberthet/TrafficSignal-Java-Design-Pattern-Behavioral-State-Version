@@ -5,7 +5,7 @@ public abstract class TrafficSignalState
 {
 	protected final TrafficSignalContext context;
 	protected int durationInSeconds;
-	private final TrafficSignalStateName name;
+	private final TrafficSignalStateName name; 
 	
 	public TrafficSignalState(TrafficSignalContext context, int durationInSeconds, TrafficSignalStateName name)
 	{

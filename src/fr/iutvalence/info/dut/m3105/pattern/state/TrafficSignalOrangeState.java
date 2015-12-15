@@ -10,7 +10,7 @@ public class TrafficSignalOrangeState extends TrafficSignalState
 	}
 
 	@Override
-	public void secondEllapsed()
+	public void secondEllapsed() 
 	{
 		super.secondEllapsed();
 		if (this.durationInSeconds == 0)

@@ -5,3 +5,4 @@ public interface TrafficSignalContext
 {
 	public void setTrafficSignalState(TrafficSignalState state);
 }
+ 
